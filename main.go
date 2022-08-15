@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "lucasbarroso23/cobracli/cmd/stringer"
 
 func main() {
-	fmt.Print("hello cobra")
+	stringer.Execute()
 }
